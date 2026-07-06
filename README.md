@@ -96,6 +96,7 @@ Lambda:
 - Execução somente quando requisitado
 - Escalonamento automático
 
+A Lambda Function é essencialmente uma função, da mesma maneira que em um bloco de código. Definimos um "trigger", algo que vai ativar a função e então a mesma é executada utilizando nosso código. A aula em si foi mais demonstrativa, mas deu para entender bem o poder de se utilizar as functions.
 
 ---
 
