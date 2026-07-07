@@ -54,7 +54,7 @@ Continuarei o desenvolvimento deste repositório conforme avançar em meus estud
 
 #Após realizar a entrega do projeto darei continuidade com a alimentação deste repositório de maneira mais direta e objetiva
 
-##Módulo 3 - Criando Recursos na AWS: 3 cursos
+##**Módulo 3 - Criando Recursos na AWS: 3 cursos**
 
 ###Curso 1 - Criando sua Primeira Instância Amazon EC2
 
@@ -97,6 +97,43 @@ Lambda:
 - Escalonamento automático
 
 A Lambda Function é essencialmente uma função, da mesma maneira que em um bloco de código. Definimos um "trigger", algo que vai ativar a função e então a mesma é executada utilizando nosso código. A aula em si foi mais demonstrativa, mas deu para entender bem o poder de se utilizar as functions.
+
+##**Módulo 4 - Redes na AWS**
+
+###Curso 1 - Introdução à Amazon VPC
+
+VPC (*Virtual Private Cloud*) = Bairro
+*SubNet* = Ruas privadas ou públicas
+*Amazon Security Group* = Guardinha
+*Amazon Route 53* = Faz a transferência do DNS para o IP
+*Amazon CloudFront* = Content Network Delivery. Entrega o conteúdo sem latência
+Amazon EBL (*Elastic Load Balancer*) = Transfere a carga de serviço entre servidores para balanceamento
+
+Amazon VPC permite utilizar recursos AWS em uma rede lógica isolada. 
+Características:
+- É como um datacenter flexível e escalável;
+- Isolamento de rede;
+- Controle de tráfego;
+- Suporte a subredes
+- Controle de endereçamento IP;
+- Conectividade
+
+###Curso 2 - Entendendo o que é uma subnet na Amazon VPC
+
+O que é?
+- Uma subnet é uma gama de endereços IP que compoem uma sub-rede dentro de uma VPC.
+
+É dentro de subets que são criados os grupos de segurança e é onde protocolos e IPs podem acessar os nossos recursos.
+
+VPC é como o prédio
+Subnet é como o andar
+IP é como o apartamento
+
+###Curso 3 -Introdução ao Security Group na AWS
+
+Serviço onde definimos as regras de acesso à rede e permissões de acesso às instâncias
+
+Está taxado ao nível da placa de rede da instância
 
 ---
 
