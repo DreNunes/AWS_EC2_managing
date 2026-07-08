@@ -135,6 +135,94 @@ Serviço onde definimos as regras de acesso à rede e permissões de acesso às 
 
 Está taxado ao nível da placa de rede da instância
 
+###Curso 4 - Explorando os Fundamentos do Route 53 na AWS
+
+Route 53 é um serviço que faz a conversão do DNS (*Domain Name Service*) para endereços IP. Além disso, faz a resolução de nomes DNS para o nosso IP interno na AWS e a resolução de tráfego.
+
+###Curso 5 - Introdução à Distribuição de Conteúdo com Amazon CloudFront
+
+É um serviço que permite a entrega de conteúdo de forma global. Ou seja, o cliente consegue acessar conteúdos sem latência em escala global.
+
+Faz a distribuição do conteúdo com base em Edge Location.
+
+Edge Location é um servidor de cache. Esse tipo de servidor está espalhado pelo mundo e é usado para reduzir a latência de acesso. Funciona enviando e recebendo fragmentos do conteúdo para aliviar o tráfego de dados.
+
+###Curso 6 - Entendendo o que é o Elastic Load Balancer
+
+É um serviço que trabalha com a distribuição de carga de forma eficiente e automática para um grupo de servidores. Faz o balancemaneto de carga para aumentar velocidade e desempenho.
+
+Existem 4 tipos de balanceadores:
+1. Application Load Balancer:
+   - Gerencia o tráfego de aplicações HTTP/HTTPS
+   - Ideal para balancear o tráfego de aplicativos web que precisam de roteamento avançado
+  
+2. Network Load Balancer:
+   - Gerencia o tráfego TCP/UDP a nível de rede
+   - Ideal para balancear o tráfego de aplicativos que exigem alta performance e baixa latência
+  
+3. Gateway Load Balancer:
+   - Combina Load Balancing com segurança de rede
+   - ideal para distribuir tráfego e adicionar funcionalidades de segurança a aplicativos
+  
+4. Classic Load Balancer:
+   - Legado. Distribui tráfego HTTP/HTTPS e TCP entre duas instâncias EC2
+   - Ideal para aplicativos que foram desenvolvidos antes do surgimento de ALBs e NLBs
+  
+##**Módulo 5 - Banco de dados na AWS**
+
+###Curso 1 - Entendendo o que é o Amazon RDS
+
+RDS funciona com 6 tipos de bancos de dados:
+- Maria DB
+- Amazon Aurora
+- Oracle
+- Microsoft SQL Server
+- Postgre SQL
+- MySQL
+
+###Curso 2 - Introdução ao Amazon DynamoDB
+
+Amazon DynamoDB é ideal para aplicativos que exigem desempenho, felxibilidade e escalabilidade de um banco de dados NoSQL totalmente gerenciado
+
+###Curso 3 - Explorando Estratégias de Backup e Recuperação de Dados na AWS
+
+1. Identificar dados Críticos, definir RPO e RTO;
+2. Selecionar qual serviço AWS será utilizado para armazenar o backup;
+3. Implementar estratégia de backup (bkps regulares, cópias em multiplas regiões, automação e monitoramento, rds automated e snapshots, dynamo db on-demand bkp);
+4. Recuperação e teste;
+5. Segurança e conformidade (criptografar dados, controle de acesso, registros e auditorias);
+6. Custo e otimização (gestão de custos);
+
+##**Módulo 6 - Serviços de Armazenamento e CDN**
+
+###Curso 1 - Introdução ao Amazon S3
+
+*Buckets são os containers do S3
+
+Características:
+- Escalável;
+- Durável;
+- Seguro
+
+###Curso 2 - Conhecendo o Amazon Glacier
+
+90 dias é o mínimo para o Glacier
+
+180 dias é o mínimo para o *Glacier Deep Archive*
+
+Snow Family:
+- Snowball: Migração de dados em larga escala (petaBytes)
+- Snowball Edge (transporta dados em velocidade maior que a internet)
+- Snowmobile
+
+###Curso 3 - Entendendo a Distribuição de Conteúdo com Amazon CloudFront
+
+ClooudFront é uma solução de CDN (*Content Distribution Network*) que faz cache dos assets armazenando cópias dos recursos estáticos (imagens, vídeos, arquivos CSS, etc.) em locais estratégicos (pontos de presença, ou POPs) próximos aos clientes finais. Isso faz com que a latência para acesso ao conteúdo pelo cliente seja reduzida, já que, quando ocorre uma requisição os recursos são entregues rapidamente a partir do cache mais próximo, e não do servidor.
+
+###Desafio de Código - Aplicações Industriais com JavaScript e AWS
+
+
+
 ---
 
 This repository was created as an AWS EC2 instances managing project for a cloud fundamentals with AWS bootcamp on DIO.
