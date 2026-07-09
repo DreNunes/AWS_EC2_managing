@@ -221,7 +221,23 @@ ClooudFront é uma solução de CDN (*Content Distribution Network*) que faz cac
 
 ###Desafio de Código - Aplicações Industriais com JavaScript e AWS
 
+Acabou sendo um desafio simples que solicitava uma verificação de status com uma resposta diferente para cada caso. Minha maior dificuldade dessa vez foi utilizar uma linguagem que nunca utilizei para programar antes, nesse caso, JavaScript:
 
+'''
+// Lê o status enviado pela máquina
+const status = gets();
+
+// Estrutura condicional para verificar o status
+if (status === "ok") {
+    print("Operacao normal");
+} else if (status === "warning") {
+    print("Manutencao preventiva");
+} else if (status === "critical") {
+    print("Parada imediata");
+} else {
+    print("Status desconhecido");
+}
+'''
 
 ---
 
