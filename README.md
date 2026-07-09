@@ -223,7 +223,6 @@ ClooudFront é uma solução de CDN (*Content Distribution Network*) que faz cac
 
 Acabou sendo um desafio simples que solicitava uma verificação de status com uma resposta diferente para cada caso. Minha maior dificuldade dessa vez foi utilizar uma linguagem que nunca utilizei para programar antes, nesse caso, JavaScript:
 
-'''
 // Lê o status enviado pela máquina
 const status = gets();
 
@@ -237,7 +236,7 @@ if (status === "ok") {
 } else {
     print("Status desconhecido");
 }
-'''
+
 
 ---
 
