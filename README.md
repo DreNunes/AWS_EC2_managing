@@ -241,6 +241,63 @@ if (status === "ok") {
 
 ###Curso 1 - Entendendo como Funciona o AWS Lambda
 
+EKS = Kubernets dentro da AWS
+Kubernets é um serviço de orquestração de containers
+
+SNS = serviço de notificações dentro da AWS
+
+SQS = serviço de filas de mensagem dentro da AWS
+
+AWS step functions = serviço de orquestração de funções lambda
+
+**AWS Lambda é um serviço que executa seu código em resposa a eventos e gerencia automaticamente recursos de computação** e é um serviço serverless
+
+Sempre que realizar uma ação no código é preciso fazer um deploy
+
+###Curso 2 - Entendendo o que são Amazon ECS e EKS na Orquestração de Containers
+
+Microserviços são a quebra de uma aplicação em diferentes blocos, assim, a manutenção de um microserviço não interfere no funcionamento dos outros.
+
+Um serviço monolítico é quando todas as instâncias de uma aplicação ocorrem no mesmo bloco, de forma que, não é possível realizar a manutenção em um único serviço separado.
+
+Amazon ECS (*Elastic Container Service*) = Serviço de orquestração de contêineres. Permite executar, interromper e gerenciar facilmente conteiners em um cluster -> Permite executar aplicações em contêineres em uma estrutura de microserviços.
+
+Características:
+- Simples gerenciamento
+- Escalabilidade
+- Fácil integração
+- Segurança
+
+Cada componente de um aplicativo é empacotado em um contêiner Docker -> Definimos uma tarefa para cada contêiner e configuramos os serviços no ECS para manter a disponibilidade deles
+
+Escalabilidade automática, monitoramento e logging.
+
+ECR Registry = Repositório de Contêiners
+
+EKS (*Elastic Kubernetes Service*) = Integra o Kubernetes na AWS, para que possa usá-lo para gerenciar contêineres sem ter que baixar o cluster Kubernetes.
+
+ECS VS. EKS = vai de gosto. ECS é mais automatizado e simples, já o EKS é mais manual porém mais complexo
+
+###Curso 3 - Entendendo como Funcionam o Amazon SNS e SQS na Comunicação Assíncrona
+
+Amazon SNS (*Simple Notification Service*) = Serviço de mensagens assícronas para notificação de mensagens entre aplicativos distribuídos e microserviços -> Permite o envio de notificações para dispositivos com outros serviços da AWS.
+
+É dividido em Publishers, tópicos e subscribers.
+
+Tópicos são pontos de acesso entre o Publisher e o Subscriber
+
+Tópicos podem ser divididos em 2 tipos: FIFO ou Padrão:
+-FIFO (First In/First Out): obedece a ordem de entrada e de saída
+Padrão: Mais utilizado, mais flexível e menos rigoroso. Não obedece ordem de chegada e não garante a ordem exata das mensagens, podendo ser entregues mais de uma vez
+
+SQS (*Simple Queue Service*) = Também entrega mensagens, porém, sem notificação. Trabalha com padrão de mensagens em filas.
+
+Suaviza o tráfego e garante processamento consistente.
+
+###Desafio de projeto 2 - Explorando Workflows Automatizados com AWS Step Functions
+
+Step Functions = Construtor visual para criar fluxos de trabalho
+
 
 ---
 
