@@ -237,6 +237,10 @@ if (status === "ok") {
     print("Status desconhecido");
 }
 
+##Módulo 7 - Serviços Intermediários e Avançados
+
+###Curso 1 - Entendendo como Funciona o AWS Lambda
+
 
 ---
 
