@@ -298,7 +298,7 @@ Suaviza o tráfego e garante processamento consistente.
 
 Step Functions = Construtor visual para criar fluxos de trabalho
 
-
+Neste desafio ele fez a apresentação do step functions, que é basicamente um figma ou qualquer outra aplicação de white board com o diferencial de ser integrada diretamente na AWS. O desafio é somente enviar um repositório que contenha um resumo da aula, e como eu apenas continuei o repositório do primeiro desafio irei enviá-lo novamente.
 ---
 
 This repository was created as an AWS EC2 instances managing project for a cloud fundamentals with AWS bootcamp on DIO.
