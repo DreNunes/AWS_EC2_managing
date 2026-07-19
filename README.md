@@ -308,11 +308,19 @@ Além de uma explicação sobre o serviço e seus conceitos, o instrutor também
 
 É um serviço que nos permite monitorar e criar alarmes que enviam notificações ou fazem alterações automaticamente nos recursos que estão sendo monitorados.
 
-###Curso 2 - Fundamentos do AWS CloudTrail para Auditoria e Segurança na AWS
+### Curso 2 - Fundamentos do AWS CloudTrail para Auditoria e Segurança na AWS
 
 É um serviço da AWS que ajuda na auditoria operacional e de risco, a governança e a conformidade da sua conta da AWS. É um log de todas as ações dos usuários dentro da AWS. Os registros são salvos em um bucket do Amazon S3
 
+### Desafio de projeto 3 - Implementando sua Primeira Stack com AWS CloudFormation
+
+CloudFormation é um processo que auxilia na automação de criação de recursos na AWS por meio de templates que podem ser versionados. A partir deles podemos criar recursos simples como um EC2 ou até uma arquitetura mais completa.
+
+Novamente, o desafio se baseia na entrega de um repositório README.md que contenha um resumo do conteúdo apresentado.
+
 ### Curso 3 - 
+
+
 
 ---
 
