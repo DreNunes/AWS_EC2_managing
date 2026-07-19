@@ -318,8 +318,9 @@ CloudFormation é um processo que auxilia na automação de criação de recurso
 
 Novamente, o desafio se baseia na entrega de um repositório README.md que contenha um resumo do conteúdo apresentado.
 
-### Curso 3 - 
+### Curso 3 - Gerenciando Usuários e Permissões na AWS com Identity and Access Management (IAM)
 
+Este recurso já foi apresentado anteriormente.
 
-
+### Curso 4 - Entendendo e Gerenciando Polices e Roels na AWS
 
