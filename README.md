@@ -324,3 +324,19 @@ Este recurso já foi apresentado anteriormente.
 
 ### Curso 4 - Entendendo e Gerenciando Polices e Roels na AWS
 
+Polices, ou políticas, nada mais são que documentos que definem permissões para usuários, grupos e roles na AWS
+
+Roles, ou cargos, são tipos de identidades
+
+## Módulo 9 - Segurança na AWS
+
+### Curso 1 - Explorando Práticas Recomendadas de Segurança na Nuvem
+
+A segurança na nuvem da AWS segue o modelo de responsabilidade compartilhada. A AWS é responsável pelo hardware físico, infraestrutura dos data centers, softwares e outros. Enquanto o usuário é responsável pela segurança da configuração e proteção dos dados.
+
+Práticas recomendadas:
+- Configurar as permissões de acesso aos recursos
+- Definir políticas de controle que protejam os dados
+- Monitorar o uso dos serviços e implementar práticas de segurança como criptografia de dados em repouso e em trânsito
+
+### Curso 2 - Entendendo a Criptografia de Dados na AWS
