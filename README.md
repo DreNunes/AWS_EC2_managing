@@ -340,3 +340,53 @@ Práticas recomendadas:
 - Monitorar o uso dos serviços e implementar práticas de segurança como criptografia de dados em repouso e em trânsito
 
 ### Curso 2 - Entendendo a Criptografia de Dados na AWS
+
+Criptogradia em repouso: dados parados, armazenado em banco de dados ou em disco
+
+Criptografia: dados em atividade
+
+Amazon S3, Amazon RDS, EBS e Amazon KMS possuem criptografia em repouso
+
+### Curso 3 - Protegendo Aplicações Web com AWS WAF
+
+WAF - Werb Application Firewall
+
+Com ele é possível criar regras para de bloqueio e permissão
+
+1. Proteção contra bots maus e scrapers
+2. Proteção contra injeção de SQL
+3. Proteção contra scripts entre sítios
+4. Proteção do scanner e da sonda
+5. Lista branca e lista negra de IPs
+6. Proteção contra atacante conhecidos
+7. Proteção contra inundações HTTP
+
+## Módulo 10 - Desenvolvimento e Ferramenta
+
+### Curso 1 - Explorando como Funcionam a AWS CLI e os SDKs
+
+SDK = Software Development Kit
+
+Linguagens suportadas:
+- Java
+- .NET
+- NodeJS
+- Python
+- Ruby
+- PHP
+- IOS
+- Android
+
+![Comandos de instalação](<img width="959" height="446" alt="Captura de tela 2026-07-22 171754" src="https://github.com/user-attachments/assets/c07db4a7-ee33-4399-b979-4aa42f0a538a" />)
+
+### Desafio de projeto 4 - Implementando Infraestrutura Automatizada com AWS CloudFormation
+
+Com o CloudFroamtion eliminamos a necessidade de configurar recursos manualmente
+
+Benefícios:
+- Automação
+- Consistência e padronização
+- Economia de custos
+- Segurança
+
+Novamente, o desafio se trata da entrega do README.md autalizado.
