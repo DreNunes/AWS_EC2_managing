@@ -390,3 +390,12 @@ Benefícios:
 - Segurança
 
 Novamente, o desafio se trata da entrega do README.md autalizado.
+
+### Curso 2 - Automatizando Implantação de Aplicações com AWS CodeDeploy
+
+É como um robo que coloca no ar ou atualiza a aplicação que já está rodando. Ele distribui o código ou aplicativo automaticamente nos servidores de forma segura e eficiente sem interromper os usuários.
+
+## Módulo 11 - Automação e DevOps na AWS
+
+### Curso 1 - Explorando Automatização de Tarefas na AWS
+
