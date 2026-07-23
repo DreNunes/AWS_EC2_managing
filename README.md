@@ -399,3 +399,15 @@ Novamente, o desafio se trata da entrega do README.md autalizado.
 
 ### Curso 1 - Explorando Automatização de Tarefas na AWS
 
+Recursos para realizar automações:
+- AWS CloudFormation
+- AWS Lambda
+- AWS CodePipeline
+- AWS System Manager
+- AWS Step Functions
+
+* Ansible
+* Terraform
+
+### Desafio de Projeot 5 - Executando tarefas Automatizadas com Lambda Function e S3
+
