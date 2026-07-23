@@ -411,3 +411,12 @@ Recursos para realizar automações:
 
 ### Desafio de Projeot 5 - Executando tarefas Automatizadas com Lambda Function e S3
 
+A ideia do projeto é o upload de arquivos com processamento e registro no DynamoDB. O fluxo do projeto deve ser o seguinte:
+1. Upload de um arquivo em um bucket S3;
+2. Um evento no S3 dispara uma Lambda Function escrita em Python;
+3. A Lambda processa o conteúdo do arquivo e grava esses dados em uma tabela no DynamoDB;
+4. Outra função Lambda irá consultar a tabela e expor os dados por meio de uma API Gateway
+
+![Workflow](<img width="530" height="396" alt="Captura de tela 2026-07-23 160903" src="https://github.com/user-attachments/assets/96cef14d-bc5a-4ab4-aca7-ab672029047b" />)
+
+LocalStack é um projeto opensource que torna possível simular localmente a AWS
